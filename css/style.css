@@ -1,0 +1,55 @@
+:root{
+    --brown-color:brown;
+    --white-color:
+    --black-color: 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-primary, .btn-primary:focus, .btn-primary:active{
+    background-color:  rgb(134, 42, 165);
+    border-color: rgb(134, 42, 165);
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: rgb(134, 42, 165);
+    color: rgb(134, 42, 165);
+}
+.navbar-brand >img{
+    width: 80px;
+    height: 80px;
+}
+.nav-link{
+    color: var(--white-color);
+}
+
+/* .bg-black{
+    background-color: blueviolet !important;
+} */
+
+.navbar{
+    background-color: blueviolet;
+    color:var(--white-color);
+}
+
+footer img{
+    width: 200px;
+    height: 200px;
+}
+
+.carouselAbout .carousel-inner, #carouselAbout .carousel-inner img{
+    height: 400px;
+
+}
+
+.bg-color{
+    background-color: blueviolet;
+    color: var(--white-color);
+}
